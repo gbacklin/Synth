@@ -104,6 +104,6 @@ class SynthViewController: UIViewController {
         
         let amplitudePercent = Int(Oscillator.amplitude * 100)
         let frequencyHertz = Int(Oscillator.frequency)
-        parameterLabel.text = "Frequency: \(frequencyHertz) Hz  Amplitude: \(amplitudePercent)%"
+        parameterLabel.text = "Frequency: \(frequencyHertz) Hz  Amplitude: \(amplitudePercent)% Playing..."
     }
 }
